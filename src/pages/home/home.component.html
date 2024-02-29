@@ -1,0 +1,22 @@
+<h1>Products</h1>
+<div class="grid">
+  @for(product of products; track product.id) {
+  <a
+    routerLink="product/coffee-65324"
+    (mouseenter)="setCurrentId(product.id)"
+    class="card"
+  >
+    <header>
+      <img
+        [style.view-transition-name]="returnViewTransition(product.id)"
+        src="https://picsum.photos/id/63/367/267"
+      />
+    </header>
+
+    <div class="content">
+      <h2 class="card__title">{{ product.name }}</h2>
+      <p class="card__price">$3</p>
+    </div>
+  </a>
+  }
+</div>

@@ -1,0 +1,18 @@
+.hero {
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+  view-transition-name: banner;
+}
+
+.close-btn {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.content {
+  padding: 2rem;
+}

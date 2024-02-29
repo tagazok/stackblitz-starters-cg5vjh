@@ -1,0 +1,43 @@
+:host {
+  display: block;
+  padding: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 16px;
+}
+
+.card {
+  display: inline-block;
+  border: 1px #94a3b8 solid;
+  border-radius: 16px;
+  padding: 0;
+  text-decoration: none;
+}
+
+.card__title {
+  color: #27272a;
+}
+
+.card__price {
+  color: #15803d;
+  font-weight: bold;
+}
+
+.card header img {
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.card__title {
+  margin: 0;
+}
+.card__price {
+  margin: 0;
+}
